@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+#topo {
+    text-decoration: none;
+    display: inline;
+    /* Trocar para cor da escolha do grupo */
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.carrinho {
+    padding-top: 50px;
+    padding-right: 30px;
+    float: right;
+    width: 80px;
+}
+
+.header {
+    color: yellow;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: bold;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+
+#QUEM-SOMOS {
+    color: white;
+    background-color: #ff8f1b;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 15px;
+    padding: 20px;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
+
+.footer {
+    background-color: red;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+/* cardapio */
+
+.caixa{
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+}
+
+.item{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    background-color: #c3c3c3;
+    padding: 3%;
+}
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: start;
+    font-family: Arial; 
+    font: bolder; 
+    font-size: 35px;
+    color: #ff8f1b;
+    text-transform: none;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30%;
+    padding: 1%;
+}
+
+.desc{
+    text-align: start;
+    font-family: Arial; 
+    font: bolder;
+    color: #dddbd9;
+    font-size: 25px;
+    width: 100%;
+    height: 70%;
+    padding: 1%;
+}
+
+.valor {
+    text-align: start;
+    font-family: Arial;  
+    font-size: 25px;
+    color: #ff8f1b;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30%;
+    padding: 1%;
+}
